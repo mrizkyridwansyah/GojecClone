@@ -26,7 +26,7 @@ const App: () => React$Node = () => {
             {/* Internal Account Content */}
             <InfoFeature />
             {/* News Content */}
-            <NewsFeature title="Manchester United vs Liverpool berakhir dengan skor imbang tanpa gol." img={require("./src/assets/images/muliv.jpg")} />
+            <NewsFeature title="Man.United vs Liverpool berakhir dengan skor imbang tanpa gol." img={require("./src/assets/images/muliv.jpg")} />
             {/* Banner Content */}
             <BannerFeature title="Training voucher apps" img={require("./src/assets/images/voucher.jpg")} />
             {/* Nearby Content */}
