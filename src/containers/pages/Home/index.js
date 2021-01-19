@@ -11,7 +11,7 @@ import NavBar from '../../../containers/organisms/NavBar/Index';
 import MainService from '../../../containers/organisms/MainService';
 import WalletService from '../../../containers/organisms/WalletService';
 
-export class Home extends Component {
+export class Home extends Component {    
     render() {
         return (
             <View style={{ flex: 1}}>
@@ -26,7 +26,7 @@ export class Home extends Component {
                     {/* Internal Account Content */}
                     <InfoFeature />
                     {/* News Content */}
-                    <NewsFeature title="Man.United vs Liverpool berakhir dengan skor imbang tanpa gol." img={require("../../../assets/images/muliv.jpg")} />
+                    <NewsFeature title="Man.United vs Liverpool berakhir dengan skor imbang tanpa gol." img={require("../../../assets/images/muliv.jpg")} onPress={() => this.props.navigation.navigate("NewsDetail")} />
                     {/* Banner Content */}
                     <BannerFeature title="Training voucher apps" img={require("../../../assets/images/voucher.jpg")} />
                     {/* Nearby Content */}

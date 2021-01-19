@@ -12,7 +12,7 @@ const NewsFeature = (props) => {
             <View style={{ padding: 10 }}>
                 <Text style={{ fontSize: 16, fontWeight: "bold", color: "#2d3436" }}>OK NEWS</Text>
                 <Text style={{ fontSize: 14, color: "#2d3436" }}>{props.title}</Text>
-                <TouchableOpacity style={{ backgroundColor: "#00b894", padding: 10, borderRadius: 10, alignSelf: "flex-end" }}>
+                <TouchableOpacity style={{ backgroundColor: "#00b894", padding: 10, borderRadius: 10, alignSelf: "flex-end" }} onPress={props.onPress}>
                     <Text style={{ color: "#fff", fontWeight: "bold", fontSize: 12, textAlign: "center" }}>READ</Text>
                 </TouchableOpacity>
             </View>  
