@@ -16,7 +16,7 @@ export class ScrollableProducts extends Component {
               <ScrollView horizontal style={{ flexDirection: "row", marginHorizontal: -17 , paddingLeft: 15 }}>         
                     {
                         places.map(place => {
-                            return <PlaceFeature name={place} />
+                            return <PlaceFeature key={place} name={place} />
                         })
                     }       
               </ScrollView>
